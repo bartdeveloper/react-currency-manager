@@ -15,6 +15,7 @@ const Container = styled.div`
     margin-bottom: 15px;
     width: 820px;
     text-align: center;
+    border-radius: 7px;
 `
 class App extends Component {
   render() {

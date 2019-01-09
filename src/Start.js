@@ -33,7 +33,7 @@ class Start extends Component {
                 </p>
 
                 <Container>
-                    <StyledLink to={`Contact`}>Contact</StyledLink>
+                    <StyledLink to='Contact'>Contact</StyledLink>
                 </Container>
 
                 <Footer />
