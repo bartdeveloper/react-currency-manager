@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import logo from './logo.svg';
 import Footer from './Footer';
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
@@ -18,7 +17,8 @@ const Container = styled.div`
     background: #c0c0c0;
     color: #000;
     padding: 15px;
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 `
 
 class Start extends Component {
@@ -27,19 +27,15 @@ class Start extends Component {
 
         return(
 
-            <div className="">
-                    
-                <img src={logo} className="App-logo" alt="logo" />
-                        
+            <div className="content">
+ 
                 <p>
-                    <code>Test project</code>.
-                </p>
-                        
-                <p>
-                    <StyledLink to={`Contact`}>Contact</StyledLink>
+                    <code>Rental manager</code>
                 </p>
 
-                <Container>Test styled div</Container>
+                <Container>
+                    <StyledLink to={`Contact`}>Contact</StyledLink>
+                </Container>
 
                 <Footer />
 
