@@ -10,9 +10,11 @@ import styled from 'styled-components'
 const Container = styled.div`
     background: #c0c0c0;
     color: #000;
-    padding: 15px;
+    padding: 30px;
     margin-top: 15px;
     margin-bottom: 15px;
+    width: 820px;
+    text-align: center;
 `
 class App extends Component {
   render() {

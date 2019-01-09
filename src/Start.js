@@ -29,7 +29,7 @@ class Start extends Component {
             <div className="content">
  
                 <p>
-                    <code>Rental manager</code>
+                    Rental manager
                 </p>
 
                 <Container>
