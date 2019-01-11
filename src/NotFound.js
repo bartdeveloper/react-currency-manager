@@ -12,6 +12,10 @@ class NotFound extends Component {
        this.setState({intervalId})
    }
 
+   componentWillUnmount = () => {
+        clearInterval(this.state.intervalId);
+   }
+
    countdown = () =>  this.setState({counter: this.state.counter - 1})
 
     render(){
