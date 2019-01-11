@@ -7,7 +7,7 @@ class CurrencyRate extends Component {
         const { no, mid } = this.props
 
         return(
-            <div><strong>{mid}</strong> PLN <small>{no}</small></div>
+            <div><strong>{mid}</strong> PLN<br/><small>{no}</small></div>
         )
     }
 }
