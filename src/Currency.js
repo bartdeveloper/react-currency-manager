@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import CurrencyItem from './CurrencyItem'
 
 class Currency extends Component {
 
@@ -12,7 +13,16 @@ class Currency extends Component {
                 Table {table} <strong>{no}</strong> from {date}
             </div>
             <div>
-                
+                <div>
+                    {rates.map(r =>
+                        <CurrencyItem
+                            key={r.code}
+                            code={r.code}
+                            currency={r.currency}
+                            mid={r.mid}
+                    />    
+                    )}
+                </div>
             </div>
         </div>
     )
