@@ -8,7 +8,7 @@ class CurrencyItem extends Component {
         const { code, currency, mid } = this.props
 
         return(
-            <div><strong><Link to='Currency/USD'>{code}</Link></strong> {mid} PLN <small>{currency}</small></div>
+            <div><strong><Link to={`Currency/${code}`}>{code}</Link></strong> {mid} PLN <small>{currency}</small></div>
         )
     }
 }

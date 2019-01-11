@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
 
@@ -7,7 +8,7 @@ class Header extends Component {
         const {txt} = this.props
 
         return(
-            <div><h1>{txt}</h1></div>
+            <div><Link to='/'><h1>{txt}</h1></Link></div>
         )
     }
 }

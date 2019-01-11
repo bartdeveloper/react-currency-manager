@@ -10,7 +10,7 @@ class CurrencyTable extends Component {
     return(
         <div>
             <div className="currency-header">
-                Table {table} <strong>{no}</strong> from {date}
+                <strong>Table {table}</strong> no <strong>{no}</strong> from <strong>{date}</strong>
             </div>
             <div className="currency-table">
                 <div className="currency-table-items">

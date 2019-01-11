@@ -1,6 +1,6 @@
 import * as api from './api'
+import { NBPApiUrl } from './NBPApi'
 
-const NBPApi = 'http://api.nbp.pl/api/exchangerates/tables/a?format=json';
+  export const getAll = () => api.get(NBPApiUrl())
 
-export const getAll = () =>
-  api.get(NBPApi)
+  export const get = (code) => api.get(NBPApiUrl(code))

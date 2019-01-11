@@ -1,27 +1,6 @@
 import React, {Component} from 'react'
-import Footer from '../containers/Footer';
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
 import CurrencyTable from '../containers/CurrencyTable'
 import * as currencyApi from '../api/currencyApi'
-import Header from '../containers/Header'
-
-const StyledLink = styled(Link)`
-    color: palevioletred;
-    text-decoration: none;
-    margin-left: 5px;
-
-    &:hover {
-        color: #fff;
-    }
-`
-const Container = styled.div`
-    background: #c0c0c0;
-    color: #000;
-    padding: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-`
 
 class Start extends Component {
 
@@ -42,8 +21,6 @@ class Start extends Component {
         return(
 
             <div className="content col-md-12">
- 
-                <Header txt="Currency manager" />
 
                 {exchangeRates.map(c => 
                    <CurrencyTable
@@ -54,13 +31,6 @@ class Start extends Component {
                         rates={c.rates}
                     />
                 )}
-
-
-                <Container>
-                    <StyledLink to='Contact'>Contact</StyledLink>
-                </Container>
-
-                <Footer />
 
             </div>
 
