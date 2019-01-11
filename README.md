@@ -1,4 +1,4 @@
-## Rental manager in React
+## Currency manager in React
 
 My first project in React.
 

@@ -1,8 +1,9 @@
 {
-  "name": "rental-manager",
+  "name": "currency-manager",
   "version": "0.1.1",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "formik": "^1.4.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

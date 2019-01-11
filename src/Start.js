@@ -26,7 +26,7 @@ class Start extends Component {
 
         return(
 
-            <div className="content">
+            <div className="content col-md-12">
  
                 <p>
                     Rental manager
