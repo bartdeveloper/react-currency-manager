@@ -17,18 +17,17 @@ class Start extends Component {
 
         const { exchangeRates } = this.state
 
-
         return(
 
             <div className="content col-md-12">
 
                 {exchangeRates.map(c => 
-                   <CurrencyTable
-                        key={c.no}
-                        table={c.table}
-                        no={c.no}
-                        date={c.effectiveDate}
-                        rates={c.rates}
+                    <CurrencyTable
+                            key={c.no}
+                            table={c.table}
+                            no={c.no}
+                            date={c.effectiveDate}
+                            rates={c.rates}
                     />
                 )}
 

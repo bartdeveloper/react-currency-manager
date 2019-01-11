@@ -54,7 +54,7 @@ class App extends Component {
           </Switch>
           
           <SmallContainer>
-            <StyledLink to='Contact'>Contact</StyledLink>
+            <StyledLink to='/Contact'>Contact</StyledLink>
           </SmallContainer>
 
           <Footer />

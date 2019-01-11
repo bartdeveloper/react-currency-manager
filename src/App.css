@@ -28,3 +28,17 @@ body {
 .currency-table-items {
   text-align: left;
 }
+
+.currency-rates {
+  margin: 15px;
+}
+
+.currency-rates-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 185px;
+}
+
+.currency-rates-table-items {
+  text-align: left;
+}
