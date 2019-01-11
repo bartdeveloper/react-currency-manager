@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { Link } from 'react-router-dom'
 
 class CurrencyItem extends Component {
 
@@ -7,7 +8,7 @@ class CurrencyItem extends Component {
         const { code, currency, mid } = this.props
 
         return(
-            <div><strong>{code}</strong> {mid} PLN <small>{currency}</small></div>
+            <div><strong><Link to='Currency/USD'>{code}</Link></strong> {mid} PLN <small>{currency}</small></div>
         )
     }
 }

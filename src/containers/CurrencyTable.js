@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import CurrencyItem from './CurrencyItem'
 
-class Currency extends Component {
+class CurrencyTable extends Component {
 
   render() {
 
@@ -29,4 +29,4 @@ class Currency extends Component {
   }
 }
 
-export default Currency
+export default CurrencyTable

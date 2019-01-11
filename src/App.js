@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import Start from './components/Start';
 import Contact from './components/Contact';
-import Welcome from './components/Welcome';
 import NotFound from './components/NotFound';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components'
+import Currency from './components/Currency'
 
 const Container = styled.div`
     background: #c0c0c0;
@@ -26,7 +26,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={Start} />
             <Route exact path='/contact' component={Contact} />
-            <Route exact path='/welcome/:name' component={Welcome} />
+            <Route exact path='/currency/:name' component={Currency} />
             <Route component={NotFound} />
           </Switch>
         </Container>

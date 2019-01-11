@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import Footer from '../containers/Footer';
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import Currency from '../containers/Currency'
+import CurrencyTable from '../containers/CurrencyTable'
 import * as currencyApi from '../api/currencyApi'
 import Header from '../containers/Header'
 
@@ -46,7 +46,7 @@ class Start extends Component {
                 <Header txt="Currency manager" />
 
                 {exchangeRates.map(c => 
-                   <Currency
+                   <CurrencyTable
                         key={c.no}
                         table={c.table}
                         no={c.no}
