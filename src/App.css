@@ -14,3 +14,17 @@ body {
 .content {
   font-size: 18px;
 }
+
+.currency-header {
+  margin: 20px;
+}
+
+.currency-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 345px;
+}
+
+.currency-table-items {
+  text-align: left;
+}

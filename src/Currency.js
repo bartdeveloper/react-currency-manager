@@ -9,11 +9,11 @@ class Currency extends Component {
 
     return(
         <div>
-            <div>
+            <div className="currency-header">
                 Table {table} <strong>{no}</strong> from {date}
             </div>
-            <div>
-                <div>
+            <div className="currency-table">
+                <div className="currency-table-items">
                     {rates.map(r =>
                         <CurrencyItem
                             key={r.code}
