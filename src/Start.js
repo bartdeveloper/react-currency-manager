@@ -2,6 +2,9 @@ import React, {Component} from 'react'
 import Footer from './Footer';
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import Currency from './Currency'
+import * as currencyApi from './currencyApi'
+import Header from './Header'
 
 const StyledLink = styled(Link)`
     color: palevioletred;
@@ -22,15 +25,36 @@ const Container = styled.div`
 
 class Start extends Component {
 
+    componentDidMount = async () => {
+        const exchangeRates = await currencyApi.getAll();
+        this.setState({exchangeRates})
+    }
+
+    state = {
+        exchangeRates: []
+    }
+
     render(){
+
+        const { exchangeRates } = this.state
+
 
         return(
 
             <div className="content col-md-12">
  
-                <p>
-                    Rental manager
-                </p>
+                <Header txt="Currency manager" />
+
+                {exchangeRates.map(c => 
+                   <Currency
+                        key={c.no}
+                        table={c.table}
+                        no={c.no}
+                        date={c.effectiveDate}
+                        rates={c.rates}
+                    />
+                )}
+
 
                 <Container>
                     <StyledLink to='Contact'>Contact</StyledLink>
