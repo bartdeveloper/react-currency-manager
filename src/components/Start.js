@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import Footer from './Footer';
+import Footer from '../containers/Footer';
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import Currency from './Currency'
-import * as currencyApi from './currencyApi'
-import Header from './Header'
+import Currency from '../containers/Currency'
+import * as currencyApi from '../api/currencyApi'
+import Header from '../containers/Header'
 
 const StyledLink = styled(Link)`
     color: palevioletred;

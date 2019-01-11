@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Start from './Start';
-import Contact from './Contact';
-import Welcome from './Welcome';
-import NotFound from './NotFound';
+import Start from './components/Start';
+import Contact from './components/Contact';
+import Welcome from './components/Welcome';
+import NotFound from './components/NotFound';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components'
 
