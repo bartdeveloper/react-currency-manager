@@ -19,6 +19,10 @@ body {
   margin: 20px;
 }
 
+.currency-input {
+  margin: 20px;
+}
+
 .currency-table {
   margin-left: auto;
   margin-right: auto;
