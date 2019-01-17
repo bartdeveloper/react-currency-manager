@@ -16,10 +16,7 @@ class CurrencyTable extends Component {
     }
 
     getFilteredCurrenciesForText(text) {
-        var list = this.props.rates.filter(c => c.code.toLowerCase().includes(text.toLowerCase()))
-
-        if(list.length > 0) return list
-        else return this.props.rates
+        return this.props.rates.filter(c => c.code.toLowerCase().includes(text.toLowerCase()))
     }
 
   render() {
@@ -44,6 +41,7 @@ class CurrencyTable extends Component {
                             mid={r.mid}
                     />    
                     )}
+                    {this.state.rates.length === 0 && <div className="alert alert-warning">No results!</div>}
                 </div>
             </div>
         </div>

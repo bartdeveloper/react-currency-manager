@@ -44,7 +44,7 @@ class App extends Component {
 
       <Router>
         <Suspense fallback={<div>Loading...</div>}>
-          <Container>
+          <Container className="col-md-8">
           
             <Header txt="Currency manager" />
               
