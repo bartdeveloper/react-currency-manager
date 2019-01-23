@@ -51,7 +51,7 @@ class App extends Component {
             <Switch>
               <Route exact path='/' component={Start} />
               <Route exact path='/contact' component={Contact} />
-              <Route exact path='/currency/:name' component={Currency} />
+              <Route exact path='/currency/:name' component={props => <Currency {...props} />} />
               <Route component={NotFound} />
             </Switch>
             
