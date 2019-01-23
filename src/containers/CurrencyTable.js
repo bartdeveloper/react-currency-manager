@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CurrencyItem from './CurrencyTableItem'
+import CurrencyTableItem from './CurrencyTableItem'
 
 class CurrencyTable extends Component {
 
@@ -34,7 +34,7 @@ class CurrencyTable extends Component {
             <div className="currency-table">
                 <div className="currency-table-items">
                     {this.state.rates.map(r =>
-                        <CurrencyItem
+                        <CurrencyTableItem
                             key={r.code}
                             code={r.code}
                             currency={r.currency}
