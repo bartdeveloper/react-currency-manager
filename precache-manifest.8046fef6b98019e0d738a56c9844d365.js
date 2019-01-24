@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/currency-manager/static/js/runtime~main.d8cee259.js"
   },
   {
-    "revision": "f01d1f9c5a529625129d",
-    "url": "/currency-manager/static/js/main.f01d1f9c.chunk.js"
+    "revision": "9b980b03d9e8aa274e1a",
+    "url": "/currency-manager/static/js/main.9b980b03.chunk.js"
   },
   {
     "revision": "3c26e33d849237e2e80e",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/currency-manager/static/js/1.bf63d24d.chunk.js"
   },
   {
-    "revision": "f01d1f9c5a529625129d",
+    "revision": "9b980b03d9e8aa274e1a",
     "url": "/currency-manager/static/css/main.91381ce8.chunk.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/currency-manager/static/css/3.e117470b.chunk.css"
   },
   {
-    "revision": "21d19d7d872dbaa8429a1fce5ea4cec4",
+    "revision": "f289e95ac9aaeb7cf51d8fd445eb672e",
     "url": "/currency-manager/index.html"
   }
 ];

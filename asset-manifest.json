@@ -1,7 +1,7 @@
 {
   "main.css": "/currency-manager/static/css/main.91381ce8.chunk.css",
-  "main.js": "/currency-manager/static/js/main.f01d1f9c.chunk.js",
-  "main.js.map": "/currency-manager/static/js/main.f01d1f9c.chunk.js.map",
+  "main.js": "/currency-manager/static/js/main.9b980b03.chunk.js",
+  "main.js.map": "/currency-manager/static/js/main.9b980b03.chunk.js.map",
   "static/js/1.bf63d24d.chunk.js": "/currency-manager/static/js/1.bf63d24d.chunk.js",
   "static/js/1.bf63d24d.chunk.js.map": "/currency-manager/static/js/1.bf63d24d.chunk.js.map",
   "static/js/2.d50d2c8f.chunk.js": "/currency-manager/static/js/2.d50d2c8f.chunk.js",
@@ -14,6 +14,6 @@
   "static/css/3.e117470b.chunk.css.map": "/currency-manager/static/css/3.e117470b.chunk.css.map",
   "static/css/main.91381ce8.chunk.css.map": "/currency-manager/static/css/main.91381ce8.chunk.css.map",
   "index.html": "/currency-manager/index.html",
-  "precache-manifest.c298100d4fd21583bab29f7ab8c544db.js": "/currency-manager/precache-manifest.c298100d4fd21583bab29f7ab8c544db.js",
+  "precache-manifest.8046fef6b98019e0d738a56c9844d365.js": "/currency-manager/precache-manifest.8046fef6b98019e0d738a56c9844d365.js",
   "service-worker.js": "/currency-manager/service-worker.js"
 }
