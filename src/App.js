@@ -49,7 +49,7 @@ class App extends Component {
             <Header txt="Currency manager" />
               
             <Switch>
-              <Route exact path='/currency-manager' component={Start} />
+              <Route exact path='/' component={Start} />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/currency/:name' component={props => <Currency {...props} />} />
               <Route component={NotFound} />
