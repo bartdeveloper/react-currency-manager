@@ -7,7 +7,7 @@ class CurrencyTable extends Component {
         rates: this.props.rates
     }
 
-    filterCurrencies(e) {
+    filterCurrencies = (e) => {
         const text = e.currentTarget.value;
         const filteredRates = this.getFilteredCurrenciesForText(text)
         this.setState({
