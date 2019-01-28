@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import * as currencyApi from '../api/currencyApi'
 import CurrencyRate from '../containers/CurrencyRate'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts'
-class Currency extends Component {
+class CurrencyDetails extends Component {
 
     componentDidMount = async () => {
         const exchangeRate = await currencyApi.get(`${this.props.match.params.name}`);
@@ -56,4 +56,4 @@ class Currency extends Component {
 
 }
 
-export default Currency
+export default CurrencyDetails

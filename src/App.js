@@ -9,7 +9,7 @@ import Header from './containers/Header'
 import Footer from './containers/Footer';
 import { Link } from 'react-router-dom'
 
-const Currency = lazy( () => import('./components/Currency'))
+const CurrencyDetails = lazy( () => import('./components/CurrencyDetails'))
 
 const Container = styled.div`
     background: #c0c0c0;
@@ -51,7 +51,7 @@ class App extends Component {
             <Switch>
               <Route exact path='/' component={Start} />
               <Route exact path='/contact' component={Contact} />
-              <Route exact path='/currency/:name' component={props => <Currency {...props} />} />
+              <Route exact path='/currency/:name' component={props => <CurrencyDetails {...props} />} />
               <Route component={NotFound} />
             </Switch>
             
