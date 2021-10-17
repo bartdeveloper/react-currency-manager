@@ -5,7 +5,7 @@ class Contact extends Component {
     render(){
 
         return(
-            <div>Contact with us!</div>
+            <div>Contact with me by GitHub ;-)</div>
         );
 
     }
