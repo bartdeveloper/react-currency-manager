@@ -50,6 +50,7 @@ class App extends Component {
               
             <Switch>
               <Route exact path='/' component={Start} />
+              <Route exact path='/currency-manager' component={Start} />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/currency/:name' component={props => <CurrencyDetails {...props} />} />
               <Route component={NotFound} />
