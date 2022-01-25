@@ -4,4 +4,4 @@ The application uses data from the National Bank of Poland's API and showing the
 
 Used libraries: react-router-dom, styled-components, lazy, suspense, recharts, enzyme.
 
-Deployed using GitHub Pages and available on https://bartdeveloper.github.io/currency-manager/
+Deployed using GitHub Pages and available on https://bartdeveloper.github.io/react-currency-manager/
