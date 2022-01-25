@@ -44,20 +44,19 @@ class App extends Component {
 
       <Router>
         <Suspense fallback={<div>Loading...</div>}>
-          <Container className="col-md-8">
+          <Container className="centerix col-md-8">
           
             <Header txt="Currency manager" />
               
             <Switch>
               <Route exact path='/' component={Start} />
-              <Route exact path='/currency-manager' component={Start} />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/currency/:name' component={props => <CurrencyDetails {...props} />} />
               <Route component={NotFound} />
             </Switch>
             
             <SmallContainer>
-              <StyledLink to='/Contact'>Contact</StyledLink>
+              <StyledLink to='/contact'>Contact</StyledLink>
             </SmallContainer>
 
             <Footer />

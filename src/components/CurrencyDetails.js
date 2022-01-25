@@ -16,6 +16,10 @@ class CurrencyDetails extends Component {
 
     render(){
 
+        //todo
+        let mini = 0;
+        let maxi = 6;
+
         const { exchangeRate, finish } = this.state
 
         return(
@@ -25,10 +29,10 @@ class CurrencyDetails extends Component {
                 
                 <div className="chart">
                     <LineChart width={550} height={300} data={exchangeRate.rates}>
-                        <Line type="monotone" dataKey="mid" stroke="#8884d8" />
+                        <Line type="monotone" dataKey="mid" stroke="#8884d8" dot={false}/>
                         <CartesianGrid stroke="#a5a1a1" strokeDasharray="5 5" />
                         <XAxis dataKey="effectiveDate" />
-                        <YAxis />
+                        <YAxis interval="preserveStartEnd" domain={[mini, maxi]} />
                         <Tooltip />
                     </LineChart>
                 </div>
@@ -37,13 +41,13 @@ class CurrencyDetails extends Component {
                 
                     <div className="currency-rates-table-items">
 
-                        {finish === true &&  exchangeRate.rates.map(r =>
-                            <CurrencyRate
-                                key={r.no}
-                                no={r.no}
-                                mid={r.mid}
-                            />    
-                        )}
+                        {finish === true &&  exchangeRate.rates.map(r => {
+                            return <CurrencyRate
+                            key={r.no}
+                            no={r.no}
+                            mid={r.mid}
+                        />  
+                        })}
 
                     </div>
                 </div>

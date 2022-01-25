@@ -29,7 +29,7 @@ class CurrencyTable extends Component {
                 <strong>Table {table}</strong> no <strong>{no}</strong> from <strong>{date}</strong>
             </div>
             <div className="currency-input">
-                <input onInput={this.filterCurrencies.bind(this)} placeholder="Type currency" />
+                <input onInput={this.filterCurrencies.bind(this)} placeholder="Type currency..." />
             </div>
             <div className="currency-table">
                 <div className="currency-table-items">

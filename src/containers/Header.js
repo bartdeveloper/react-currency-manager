@@ -8,7 +8,7 @@ class Header extends Component {
         const {txt} = this.props
 
         return(
-            <div><Link to='/currency-manager'><h1>{txt}</h1></Link></div>
+            <div><Link to='/'><h1>💰 {txt}</h1></Link></div>
         )
     }
 }

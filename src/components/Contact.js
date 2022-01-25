@@ -5,7 +5,7 @@ class Contact extends Component {
     render(){
 
         return(
-            <div>Contact with me by GitHub ;-)</div>
+            <div className="margin-top-30">Contact with me by <a href="https://github.com/bartdeveloper">GitHub</a> ;-)</div>
         );
 
     }
