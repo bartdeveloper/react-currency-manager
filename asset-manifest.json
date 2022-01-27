@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-currency-manager/static/css/main.fda80363.chunk.css",
-    "main.js": "/react-currency-manager/static/js/main.04154854.chunk.js",
-    "main.js.map": "/react-currency-manager/static/js/main.04154854.chunk.js.map",
+    "main.js": "/react-currency-manager/static/js/main.dffd38ad.chunk.js",
+    "main.js.map": "/react-currency-manager/static/js/main.dffd38ad.chunk.js.map",
     "runtime-main.js": "/react-currency-manager/static/js/runtime-main.1c9c0d99.js",
     "runtime-main.js.map": "/react-currency-manager/static/js/runtime-main.1c9c0d99.js.map",
     "static/js/2.4a4fd4bc.chunk.js": "/react-currency-manager/static/js/2.4a4fd4bc.chunk.js",
@@ -23,6 +23,6 @@
     "static/css/3.6cfa2eed.chunk.css",
     "static/js/3.d363dc36.chunk.js",
     "static/css/main.fda80363.chunk.css",
-    "static/js/main.04154854.chunk.js"
+    "static/js/main.dffd38ad.chunk.js"
   ]
 }
