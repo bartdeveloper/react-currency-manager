@@ -46,7 +46,7 @@ class App extends Component {
         <Suspense fallback={<div>Loading...</div>}>
           <Container className="centerix col-md-8">
           
-            <Header txt="Currency manager" />
+            <Header txt="💰 Currency manager" />
               
             <Switch>
               <Route exact path='/' component={Start} />

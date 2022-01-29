@@ -5,10 +5,10 @@ class Header extends Component {
 
     render(){
 
-        const {txt} = this.props
+        const { txt } = this.props
 
         return(
-            <div><Link to='/'><h1>💰 {txt}</h1></Link></div>
+            <div><Link to='/'><h1>{txt}</h1></Link></div>
         )
     }
 }
