@@ -1,5 +1,6 @@
 body {
-  background-color: #282c34;
+  background: rgb(6,57,85);
+  background: linear-gradient(180deg, rgba(6,57,85,1) 0%, rgba(40,159,184,1) 100%);
   color: white;
   justify-content: center;
   display: flex;

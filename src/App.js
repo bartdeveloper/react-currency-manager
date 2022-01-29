@@ -27,12 +27,12 @@ const SmallContainer = styled.div`
     color: #000;
     padding: 15px;
     margin-top: 15px;
-    margin-bottom: 15px;
 `
 
 const StyledLink = styled(Link)`
-    color: palevioletred;
+    color: #333;
     text-decoration: none;
+    font-weight: bold;
 
       &:hover {
           color: #fff;

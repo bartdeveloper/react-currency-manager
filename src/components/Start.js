@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
 import CurrencyTable from '../containers/CurrencyTable'
-import * as currencyApi from '../api/currencyApi'
+import * as currencyAPI from '../api/currencyAPI'
 
 class Start extends Component {
 
     componentDidMount = async () => {
-        const exchangeRates = await currencyApi.getAll();
+        const exchangeRates = await currencyAPI.getAll();
         this.setState({exchangeRates})
     }
 
