@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.551c9c54.chunk.css",
-    "main.js": "/static/js/main.25a9d6b5.chunk.js",
-    "main.js.map": "/static/js/main.25a9d6b5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.100bc0b2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.100bc0b2.js.map",
-    "static/css/2.aa7c6958.chunk.css": "/static/css/2.aa7c6958.chunk.css",
-    "static/js/2.28883bed.chunk.js": "/static/js/2.28883bed.chunk.js",
-    "static/js/2.28883bed.chunk.js.map": "/static/js/2.28883bed.chunk.js.map",
-    "static/css/3.6cfa2eed.chunk.css": "/static/css/3.6cfa2eed.chunk.css",
-    "static/js/3.dc6fadf9.chunk.js": "/static/js/3.dc6fadf9.chunk.js",
-    "static/js/3.dc6fadf9.chunk.js.map": "/static/js/3.dc6fadf9.chunk.js.map",
-    "static/js/4.df24a919.chunk.js": "/static/js/4.df24a919.chunk.js",
-    "static/js/4.df24a919.chunk.js.map": "/static/js/4.df24a919.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.aa7c6958.chunk.css.map": "/static/css/2.aa7c6958.chunk.css.map",
-    "static/css/3.6cfa2eed.chunk.css.map": "/static/css/3.6cfa2eed.chunk.css.map",
-    "static/css/main.551c9c54.chunk.css.map": "/static/css/main.551c9c54.chunk.css.map",
-    "static/js/2.28883bed.chunk.js.LICENSE.txt": "/static/js/2.28883bed.chunk.js.LICENSE.txt",
-    "static/js/3.dc6fadf9.chunk.js.LICENSE.txt": "/static/js/3.dc6fadf9.chunk.js.LICENSE.txt"
+    "main.css": "/react-currency-manager/static/css/main.551c9c54.chunk.css",
+    "main.js": "/react-currency-manager/static/js/main.24fb7d5a.chunk.js",
+    "main.js.map": "/react-currency-manager/static/js/main.24fb7d5a.chunk.js.map",
+    "runtime-main.js": "/react-currency-manager/static/js/runtime-main.f04d74a2.js",
+    "runtime-main.js.map": "/react-currency-manager/static/js/runtime-main.f04d74a2.js.map",
+    "static/css/2.aa7c6958.chunk.css": "/react-currency-manager/static/css/2.aa7c6958.chunk.css",
+    "static/js/2.28883bed.chunk.js": "/react-currency-manager/static/js/2.28883bed.chunk.js",
+    "static/js/2.28883bed.chunk.js.map": "/react-currency-manager/static/js/2.28883bed.chunk.js.map",
+    "static/css/3.6cfa2eed.chunk.css": "/react-currency-manager/static/css/3.6cfa2eed.chunk.css",
+    "static/js/3.d363dc36.chunk.js": "/react-currency-manager/static/js/3.d363dc36.chunk.js",
+    "static/js/3.d363dc36.chunk.js.map": "/react-currency-manager/static/js/3.d363dc36.chunk.js.map",
+    "static/js/4.df24a919.chunk.js": "/react-currency-manager/static/js/4.df24a919.chunk.js",
+    "static/js/4.df24a919.chunk.js.map": "/react-currency-manager/static/js/4.df24a919.chunk.js.map",
+    "index.html": "/react-currency-manager/index.html",
+    "static/css/2.aa7c6958.chunk.css.map": "/react-currency-manager/static/css/2.aa7c6958.chunk.css.map",
+    "static/css/3.6cfa2eed.chunk.css.map": "/react-currency-manager/static/css/3.6cfa2eed.chunk.css.map",
+    "static/css/main.551c9c54.chunk.css.map": "/react-currency-manager/static/css/main.551c9c54.chunk.css.map",
+    "static/js/2.28883bed.chunk.js.LICENSE.txt": "/react-currency-manager/static/js/2.28883bed.chunk.js.LICENSE.txt",
+    "static/js/3.d363dc36.chunk.js.LICENSE.txt": "/react-currency-manager/static/js/3.d363dc36.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.100bc0b2.js",
+    "static/js/runtime-main.f04d74a2.js",
     "static/css/3.6cfa2eed.chunk.css",
-    "static/js/3.dc6fadf9.chunk.js",
+    "static/js/3.d363dc36.chunk.js",
     "static/css/main.551c9c54.chunk.css",
-    "static/js/main.25a9d6b5.chunk.js"
+    "static/js/main.24fb7d5a.chunk.js"
   ]
 }
