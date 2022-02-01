@@ -4,7 +4,7 @@ import { Redirect } from 'react-router-dom';
 class NotFound extends Component {
 
    state = {
-       counter: 3
+       counter: 0
    }
 
    componentDidMount = () => {

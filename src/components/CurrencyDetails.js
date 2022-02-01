@@ -55,6 +55,7 @@ class CurrencyDetails extends Component {
                 <div>
                     <DatePicker
                         onChange={(value) => this.getRateCurrencyForDate(value)}
+                        maxDate={new Date()}
                         value={dater}
                     />
                 </div>
